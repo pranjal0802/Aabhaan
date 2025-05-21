@@ -1,0 +1,64 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.logo {
+  max-width: 120px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+nav a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+input, textarea {
+  padding: 0.5em;
+  width: 100%;
+}
+
+button {
+  padding: 0.7em;
+  background: #00bcd4;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 1em;
+}
